@@ -58,6 +58,15 @@ namespace Crud_MVC.Controllers
             }
             return View(nc);
         }
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return RedirectToAction("Index");
+            }
+            var getempdetails = await _db.EmployeTable.FindAsync(id);
+            return View(getempdetails);
+        }
 
     }
 }

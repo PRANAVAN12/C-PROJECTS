@@ -144,3 +144,4 @@ C:\Users\PC\Desktop\Projects\C#\Crud-MVC\Crud-MVC\obj\Debug\netcoreapp3.1\Crud-M
 C:\Users\PC\Desktop\Projects\C#\Crud-MVC\Crud-MVC\obj\Debug\netcoreapp3.1\Crud-MVC.csprojAssemblyReference.cache
 C:\Users\PC\Desktop\Projects\C#\Crud-MVC\Crud-MVC\obj\Debug\netcoreapp3.1\Razor\Views\eMP\Create.cshtml.g.cs
 C:\Users\PC\Desktop\Projects\C#\Crud-MVC\Crud-MVC\obj\Debug\netcoreapp3.1\Razor\Views\eMP\Edit.cshtml.g.cs
+C:\Users\PC\Desktop\Projects\C#\Crud-MVC\Crud-MVC\obj\Debug\netcoreapp3.1\Razor\Views\eMP\Details.cshtml.g.cs
