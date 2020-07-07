@@ -27,7 +27,7 @@ namespace Crud_MVC
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<AppilicationDbContext>(Options => Options.UseSqlServer(Configuration.GetConnectionString("Myconnction")));
+            services.AddDbContext<AppilicationDbContext>(Options => Options.UseSqlServer(Configuration.GetConnectionString("Myconnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -54,7 +54,7 @@ namespace Crud_MVC
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=eMPController}/{action=Index}/{id?}");
+                    pattern: "{controller=eMP}/{action=Index}/{id?}");
             });
         }
     }

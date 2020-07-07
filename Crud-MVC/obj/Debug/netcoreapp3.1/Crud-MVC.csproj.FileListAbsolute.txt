@@ -9,7 +9,6 @@ C:\Users\PC\Desktop\Projects\C#\Crud-MVC\Crud-MVC\bin\Debug\netcoreapp3.1\Crud-M
 C:\Users\PC\Desktop\Projects\C#\Crud-MVC\Crud-MVC\bin\Debug\netcoreapp3.1\Crud-MVC.pdb
 C:\Users\PC\Desktop\Projects\C#\Crud-MVC\Crud-MVC\bin\Debug\netcoreapp3.1\Crud-MVC.Views.dll
 C:\Users\PC\Desktop\Projects\C#\Crud-MVC\Crud-MVC\bin\Debug\netcoreapp3.1\Crud-MVC.Views.pdb
-C:\Users\PC\Desktop\Projects\C#\Crud-MVC\Crud-MVC\obj\Debug\netcoreapp3.1\Crud-MVC.csprojAssemblyReference.cache
 C:\Users\PC\Desktop\Projects\C#\Crud-MVC\Crud-MVC\obj\Debug\netcoreapp3.1\Crud-MVC.AssemblyInfoInputs.cache
 C:\Users\PC\Desktop\Projects\C#\Crud-MVC\Crud-MVC\obj\Debug\netcoreapp3.1\Crud-MVC.AssemblyInfo.cs
 C:\Users\PC\Desktop\Projects\C#\Crud-MVC\Crud-MVC\obj\Debug\netcoreapp3.1\Crud-MVC.RazorAssemblyInfo.cache
@@ -142,3 +141,4 @@ C:\Users\PC\Desktop\Projects\C#\Crud-MVC\Crud-MVC\bin\Debug\netcoreapp3.1\zh-Han
 C:\Users\PC\Desktop\Projects\C#\Crud-MVC\Crud-MVC\obj\Debug\netcoreapp3.1\Crud-MVC.csproj.CoreCompileInputs.cache
 C:\Users\PC\Desktop\Projects\C#\Crud-MVC\Crud-MVC\obj\Debug\netcoreapp3.1\Crud-MVC.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\PC\Desktop\Projects\C#\Crud-MVC\Crud-MVC\obj\Debug\netcoreapp3.1\Razor\Views\eMP\Index.cshtml.g.cs
+C:\Users\PC\Desktop\Projects\C#\Crud-MVC\Crud-MVC\obj\Debug\netcoreapp3.1\Crud-MVC.csprojAssemblyReference.cache
