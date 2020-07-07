@@ -12,6 +12,6 @@ namespace Crud_MVC.Models
         {
 
         }
-        public DbSet<NewEmpClass> EmployeeTable { get; set;  }
+        public DbSet<NewEmpClass> EmployeTable { get; set;  }
     }
 }

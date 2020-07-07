@@ -18,8 +18,9 @@ namespace Crud_MVC.Controllers
         }
         public IActionResult Index()
         {
-            var displaydata = _db.EmployeeTable.ToList();
-            return View();
+            
+            var displaydata = _db.EmployeTable.ToList();
+            return View(displaydata);
         }
     }
 }

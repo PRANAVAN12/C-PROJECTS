@@ -27,6 +27,7 @@ namespace Crud_MVC
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
             services.AddDbContext<AppilicationDbContext>(Options => Options.UseSqlServer(Configuration.GetConnectionString("Myconnection")));
         }
 

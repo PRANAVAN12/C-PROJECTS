@@ -27,6 +27,7 @@ namespace Crud_MVC.Models
         [Required(ErrorMessage = "Enter Employee salary")]
         [Display(Name = "Salary")]
         public int Salary { get; set; }
-       
+        
+
     }
 }
