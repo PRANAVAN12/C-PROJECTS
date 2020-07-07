@@ -22,5 +22,20 @@ namespace Crud_MVC.Controllers
             var displaydata = _db.EmployeTable.ToList();
             return View(displaydata);
         }
+        public IActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> Create(NewEmpClass nec)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Add(nec);
+                await _db.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+            return View(nec);
+        }
     }
 }

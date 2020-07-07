@@ -142,3 +142,4 @@ C:\Users\PC\Desktop\Projects\C#\Crud-MVC\Crud-MVC\obj\Debug\netcoreapp3.1\Crud-M
 C:\Users\PC\Desktop\Projects\C#\Crud-MVC\Crud-MVC\obj\Debug\netcoreapp3.1\Crud-MVC.pdb
 C:\Users\PC\Desktop\Projects\C#\Crud-MVC\Crud-MVC\obj\Debug\netcoreapp3.1\Crud-MVC.genruntimeconfig.cache
 C:\Users\PC\Desktop\Projects\C#\Crud-MVC\Crud-MVC\obj\Debug\netcoreapp3.1\Crud-MVC.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\Projects\C#\Crud-MVC\Crud-MVC\obj\Debug\netcoreapp3.1\Razor\Views\eMP\Create.cshtml.g.cs
