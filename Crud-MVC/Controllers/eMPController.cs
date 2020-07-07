@@ -37,5 +37,27 @@ namespace Crud_MVC.Controllers
             }
             return View(nec);
         }
+
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if(id== null)
+            {
+                return RedirectToAction("Index");
+            }
+            var getempdetails = await _db.EmployeTable.FindAsync(id);
+            return View(getempdetails);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Edit(NewEmpClass nc)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Update(nc);
+                await _db.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+            return View(nc);
+        }
+
     }
 }
