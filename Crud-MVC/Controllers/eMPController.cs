@@ -67,6 +67,24 @@ namespace Crud_MVC.Controllers
             var getempdetails = await _db.EmployeTable.FindAsync(id);
             return View(getempdetails);
         }
-
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return RedirectToAction("Index");
+            }
+            var getempdetails = await _db.EmployeTable.FindAsync(id);
+            return View(getempdetails);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
+        {
+           
+            var getempdetails = await _db.EmployeTable.FindAsync(id);
+            _db.EmployeTable.Remove(getempdetails);
+            await _db.SaveChangesAsync();
+            return RedirectToAction("Index");
+        }
     }
 }
+  
